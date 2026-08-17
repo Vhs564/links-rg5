@@ -1,0 +1,63 @@
+/* Configurações gerais e fundo minimalista */
+body {
+    background-color: #F8F9FA; /* Fundo cinza bem claro para destacar as cores da marca */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container simulando a tela do celular */
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #0B2E63; /* Azul escuro da RG5 para os textos principais */
+}
+
+/* Estilo da foto de perfil / logo */
+.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid #30A617; /* Borda verde da RG5 para dar destaque */
+    object-fit: cover;
+    background-color: #FFFFFF; /* Fundo branco caso a logo seja transparente */
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+/* Estilo dos Botões (Flat Design) */
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B2E63; /* Botão no azul principal da marca */
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* Bordas levemente arredondadas, mantendo o aspecto flat */
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efeito Hover: Quando o usuário passa o dedo/mouse por cima, o botão fica verde */
+.link-btn:hover {
+    background-color: #30A617;
+    transform: translateY(-2px); /* Dá uma leve "levantada" no botão */
+}
